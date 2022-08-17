@@ -1,12 +1,9 @@
-import { MouseEvent, useState } from 'react';
-import {
-  Button,
-  Box,
-  ToggleButton,
-  ToggleButtonGroup,
-  Card,
-  Typography,
-  styled
-} from '@mui/material';
-import ViewWeekTwoToneIcon from '@mui/icons-material/ViewWeekTwoTone';
-import TableRowsTwoToneIcon from '@mui/icons-material/TableRowsTwoTone';
+import React from 'react'
+
+const Watchlist = () => {
+  return (
+    <div>Watchlist</div>
+  )
+}
+
+export default Watchlist
