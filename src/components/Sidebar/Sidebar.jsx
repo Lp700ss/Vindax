@@ -105,7 +105,7 @@ export default function MiniDrawer() {
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
       <AppBar position="fixed" open={open}>
-        {/* <Toolbar>
+        <Toolbar>
           <IconButton
             color="inherit"
             aria-label="open drawer"
@@ -118,8 +118,7 @@ export default function MiniDrawer() {
           >
             <MenuIcon />
           </IconButton>
-        
-        </Toolbar> */}
+        </Toolbar>
       </AppBar>
       <Drawer variant="permanent" open={open}>
         <DrawerHeader>
@@ -137,7 +136,7 @@ export default function MiniDrawer() {
             <ListItem key={text} disablePadding sx={{ display: "block" }}>
               <ListItemButton
                 sx={{
-                  minHeight: 48,
+                  minHeight: 98,
                   justifyContent: open ? "initial" : "center",
                   px: 2.5,
                 }}
